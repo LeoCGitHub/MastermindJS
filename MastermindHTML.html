@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mastermind</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:image/png;base64,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" />
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-4.0.0/dist/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="MastermindCSS.css" />
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <header class="col-md-12 col-lg-12">
+                <h1>Mastermind</h1>
+                <div id="divbutton">
+                    <div id="buttontext">
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                            aria-describedby="basic-addon1" id="text1">
+                        <button type="button" class="btn btn-warning" id="btnwar" type="submit">NewGame</button>
+
+                    </div>
+                    <button type="button" class="btn btn-danger" id="cheat">Cheat</button>
+                </div>
+            </header>
+            <main class="col-xs-12 col-md-12 col-lg-12">
+                <aside id="left" class="col-xs-12 col-md-4 col-lg-4">
+                    <h1>Highscores</h1>
+                </aside>
+                <div class="col-xs-12 col-md-6 col-lg-6" id="main">
+                    <div id="cache">
+                        <div class="caseSol" id="caseSol1"></div>
+                        <div class="caseSol" id="caseSol2"></div>
+                        <div class="caseSol" id="caseSol3"></div>
+                        <div class="caseSol" id="caseSol4"></div>
+                    </div>
+                    <div id="propal0">
+                        <div id="propal" class="container-fluid">
+                        </div>
+                    </div>
+                    <div id="showpropal">
+                        <div class="casePropal" id="casePropal1"></div>
+                        <div class="casePropal" id="casePropal2"></div>
+                        <div class="casePropal" id="casePropal3"></div>
+                        <div class="casePropal" id="casePropal4"></div>
+                        <button type="button" class="btn btn-success" id="btnCheck">Tester</button>
+                        <button type="button" class="btn btn-primary" id="btnClear">Clear</button>
+                    </div>
+                    <div id="selec">
+                        <div class="caseselec" id="caseselec1"></div>
+                        <div class="caseselec" id="caseselec2"></div>
+                        <div class="caseselec" id="caseselec3"></div>
+                        <div class="caseselec" id="caseselec4"></div>
+                        <div class="caseselec" id="caseselec5"></div>
+                        <div class="caseselec" id="caseselec6"></div>
+                    </div>
+                </div>
+            </main>
+
+            <footer class="col-lg-12">
+                <p id="resultat"></p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="bootstrap-4.0.0/dist/js/jQuery.js"></script>
+    <script src="bootstrap-4.0.0/dist/js/popper.js"></script>
+    <script src="bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="MastermindJS.js"></script>
+    <script src="jquery.nicescroll-master/jquery.nicescroll.js"></script>
+</body>
+
+</html>
+
+<div>
